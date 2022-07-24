@@ -7,4 +7,4 @@ This repository contains the two formulae necessary to let Homebrew install Grac
 
 Note that this will not work on an Apple Silicon install of Homebrew. This is because `pdflib-lite` was written pre-Apple Silicon, and makes 
 assumptions about architectures supported by macOS. (It does, for example, include PowerPC support!) Fixing that issue is outside the scope 
-of this repository, so for now at least you'll need to install an x86 version of Homebrew.
+of this repository, so for now at least you'll need to [install an x86 version of Homebrew](https://medium.com/mkdir-awesome/how-to-install-x86-64-homebrew-packages-on-apple-m1-macbook-54ba295230f).
